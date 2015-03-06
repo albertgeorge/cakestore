@@ -1,0 +1,172 @@
+@font-face {
+    font-family: PTSansNarrow;
+    src: url(../fonts/PTSansNarrow.ttf);
+}
+
+@font-face {
+    font-family: PTSansBold;
+    src: url(../fonts/PTSansBold.ttf);
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	position: relative;
+	background-color: #DBDED7;
+}
+
+#main{
+	position: relative;
+	margin: 20px auto;
+	width: 1280px;
+	height: 1400px;
+	background-color: white;
+}
+
+#headercontainer{
+	position: relative;
+	padding: 35px 40px 30px;
+}
+
+#searchbar{
+	position: relative;	
+}
+
+#search{
+	position:relative;
+	float: right;
+	border-bottom: 1px solid #f5f5f5;
+}
+
+#search input[type="text"]{
+	border: none;
+	outline: none;
+	width: 200px;
+}
+
+#search input[type="submit"]{
+	background: url(../images/btn-search.png) 0 0 no-repeat #fff;
+	cursor: pointer;
+}
+
+#header{
+	position: relative;
+	clear: right;
+	top: 20px;
+	padding: 50px 0;
+	border-top: 1px solid #eeeeee;
+}
+
+#logo{
+	width: 750px;
+	margin: 0 auto;
+	text-align: center;
+	font: normal 19px PTSansBold;
+	text-transform: uppercase;
+}
+
+#navcontainer{
+	position: relative;
+	top: 20px;
+	border-top: 1px solid #eeeeee;
+	border-bottom: 5px solid #f5f5f5;
+}
+
+#nav{
+	position: relative;
+	width: 515px;
+	margin: 0 auto;
+}
+
+.navul{	
+	padding: 14px;
+	display: inline-block;
+	list-style-type: none;
+}
+
+.navul > li{
+	display: inline;
+	padding: 0 8px;
+}
+
+.navul > li > a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #4e4e4e;
+	font: normal 19px/30px PTSansNarrow,sans-serif;
+}
+
+.active{
+	border-bottom: 2px solid red;
+}
+
+.clearfix{
+	clear: both;
+}
+
+.promotions{
+	position: relative;
+	top: 50px;
+}
+
+.slider{
+	width: 669px;
+	height: 553px;
+	float: left;
+}
+
+.categories{
+	position: relative;
+	left: 46px;
+	width: 485px;
+	height: 553px;
+	float: left;
+}
+
+.catul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.catul > li{
+	float:left;	
+	width: 225px;
+	height: 265px;
+}
+.catul > li > div{
+	height: 70px;
+	width: 226px;
+	text-transform: capitalize;
+	text-align: center;
+	font-family: PTSansBold;
+	color: white;
+	font-size: 28px;
+	margin: 0;
+	padding-top: 33px;
+}
+.catul > li:nth-child(1){
+	margin-right: 30px;
+	margin-bottom: 21px;
+}
+.catul > li:nth-child(2){
+	margin-bottom: 21px;
+}
+.catul > li:nth-child(3){
+	margin-right: 30px;
+}
+
+.maroon{
+	background-color: #F52245;
+}
+.orange{
+	background-color: #F57622;
+}
+.green{
+	background-color: #C6F266;
+}
+.blue{
+	background-color: #66F2C1;
+}
+
+
+
